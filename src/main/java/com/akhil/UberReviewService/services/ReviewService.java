@@ -24,6 +24,6 @@ public class ReviewService implements CommandLineRunner {
                     .rating(4.1)
                     .content("Awesome!!")
                     .build();
-       reviewRepository.save(r);
+
     }
 }
